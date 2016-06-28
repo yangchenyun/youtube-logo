@@ -1,6 +1,6 @@
 {
   "name": "youtube-logo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Youtube logo in your terminal.",
   "author": {
     "name": "Chenyun Yang",
@@ -27,17 +27,18 @@
     "art"
   ],
   "dependencies": {
-    "supports-color": "^1.3.1"
+    "supports-color": "^3.1.2"
   },
   "devDependencies": {
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-jshint": "^0.11.0",
-    "grunt-contrib-nodeunit": "^0.4.1",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-mocha-cli": "^1.12.0",
-    "jshint-stylish": "^1.0.1",
-    "load-grunt-tasks": "^3.1.0",
-    "time-grunt": "^1.1.0"
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-mocha-cli": "^2.1.0",
+    "jshint-stylish": "^2.2.0",
+    "load-grunt-tasks": "^3.5.0",
+    "time-grunt": "^1.3.0"
   },
   "scripts": {
     "test": "grunt"
